@@ -22,3 +22,10 @@
 ```code
 curl -X POST -H 'Content-Type: application/json' -d '{ "version": "1.1", "host": "example.org", "short_message": "A short message", "level": 5, "_some_info": "foo" }' 'http://localhost:12201/gelf'
 ```
+
+
+## some  links
+
+[elasticsearch upgrade](https://www.elastic.co/guide/en/elasticsearch/reference/6.8/rolling-upgrades.html)
+
+[graylog  upgrade](https://docs.graylog.org/en/2.5/pages/upgrade.html#upgrading-elasticsearch)

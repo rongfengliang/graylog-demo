@@ -9,7 +9,7 @@ services:
     - "./mongodb:/data/db"
   # Elasticsearch: https://www.elastic.co/guide/en/elasticsearch/reference/6.x/docker.html
   elasticsearch:
-    image: elasticsearch:5.6
+    image: elasticsearch:6.8.2
     ports:
     - "9200:9200"
     volumes:
